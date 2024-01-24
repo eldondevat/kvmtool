@@ -1,0 +1,20 @@
+name: Build
+
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  # Contains a single job called "build"
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks out repository under $GITHUB_WORKSPACE, so job can access it
+      - uses: actions/checkout@v2
+
+      - name: Build
+        run: make lkvm-static
+
