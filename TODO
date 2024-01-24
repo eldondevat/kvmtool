@@ -1,0 +1,3 @@
+[ ] Update README with appropriate link for file to start, since qemu wiki 404's
+[ ] Investigate lockup on stable 6.6 kernel when overutilizing character buffer
+
