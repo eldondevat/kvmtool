@@ -1,3 +1,6 @@
 [ ] Update README with appropriate link for file to start, since qemu wiki 404's
 [ ] Investigate lockup on stable 6.6 kernel when overutilizing character buffer
+[ ] Create downloadable executables
+[X] Fix test Makefile for mkisofs
+[ ] Create some real tests, and related artifacts and data
 
